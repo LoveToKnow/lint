@@ -1,0 +1,25 @@
+{
+  "name": "@lovetoknow/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier default config",
+  "author": "LoveToKnow",
+  "homepage": "https://github.com/LoveToKnow/lint",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveToKnow/lint.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/LoveToKnow/lint/issues"
+  },
+  "dependencies": {
+    "prettier": "^2.x.x"
+  }
+}
