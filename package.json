@@ -9,5 +9,8 @@
     "eslint-plugin-prettier": "^3.x.x",
     "lerna": "^3.22.1",
     "prettier": "^2.x.x"
+  },
+  "scripts": {
+    "publish-ci": "lerna publish from-package -y --no-verify-access"
   }
 }
