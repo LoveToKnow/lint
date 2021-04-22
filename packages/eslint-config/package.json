@@ -3,20 +3,30 @@
   "version": "0.0.0",
   "description": "LoveToKnow's default Eslint configuration",
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "ltk",
+    "lovetoknow"
   ],
-  "author": "gangsthub <paulmelero@gmail.com>",
+  "author": "LoveToKnow",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveToKnow/lint.git"
+  },
+  "devDependencies": {
+    "@lovetoknow/prettier-config": "latest",
+    "babel-eslint": "^10.x.x",
+    "eslint": "^7.x.x",
+    "eslint-config-prettier": "^8.x.x",
+    "eslint-plugin-prettier": "^3.x.x",
+    "prettier": "^2.x.x"
   }
 }
