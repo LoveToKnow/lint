@@ -1,10 +1,5 @@
 module.exports = {
-  extends: [
-    'plugin:vue/essential',
-    'eslint:recommended',
-    '@vue/prettier',
-    './index.js',
-  ],
+  extends: ['plugin:vue/essential', 'eslint:recommended', '@vue/prettier', './index.js'],
   parserOptions: {
     sourceType: 'module',
   },
@@ -24,14 +19,14 @@ module.exports = {
         },
       },
     ],
-    'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     'vue/no-use-v-if-with-v-for': [
       'error',
       {
         allowUsingIterationVar: true,
       },
     ],
-    'vue/name-property-casing': ['error', 'kebab-case'],
+    'vue/component-name-in-template-casing': ['error', 'kebab-case'],
+    'vue/component-definition-name-casing': ['error', 'kebab-case'],
     'vue/attributes-order': [
       'error',
       {
@@ -42,6 +37,7 @@ module.exports = {
           'CONDITIONALS',
           'RENDER_MODIFIERS',
           'GLOBAL',
+          'SLOT',
           'OTHER_DIRECTIVES',
           'TWO_WAY_BINDING',
           'CONTENT',

@@ -195,6 +195,8 @@ Lovetoknow's ESLint config extends `eslint:recommended` which enables rules that
 
 The rules listed below are rules we have enabled on top of those enabled by `eslint:recommended`.
 
+### Default Rules
+
 <details>
 <summary>no-console</summary>
 
@@ -547,6 +549,83 @@ import a from "a"
 })()
 
 ```
+</details>
+
+### Vue.js Rules
+
+Same as in [Default Rules](#default-rules), plus some vue-specific rules:
+
+
+<details>
+<summary>vue/max-attributes-per-line</summary>
+
+Limits the maximum number of attributes/properties per line to improve readability.
+
+See examples and more information here: https://eslint.vuejs.org/rules/max-attributes-per-line.html
+
+</details>
+
+<details>
+<summary>vue/no-use-v-if-with-v-for</summary>
+
+This rule is aimed at preventing the use of v-for directives together with v-if directives on the same element.
+
+There are two common cases where this can be tempting:
+
+- To filter items in a list (e.g. `v-for="user in users" v-if="user.isActive"`). In these cases, replace `users` with a new computed property that returns your filtered list (e.g. `activeUsers`).
+- To avoid rendering a list if it should be hidden (e.g. `v-for="user in users" v-if="shouldShowUsers"`). In these cases, move the `v-if` to a container element (e.g. `ul`, `ol`).
+
+See examples and more information here: https://eslint.vuejs.org/rules/no-use-v-if-with-v-for.html#vue-no-use-v-if-with-v-for
+
+</details>
+
+<details>
+<summary>vue/component-name-in-template-casing</summary>
+
+This rule aims to warn the tag names other than the configured casing in Vue.js template.
+
+See examples and more information here: https://eslint.vuejs.org/rules/component-name-in-template-casing.html#vue-component-name-in-template-casing
+
+</details>
+
+<details>
+<summary>vue/component-definition-name-casing</summary>
+
+Limits the maximum number of attributes/properties per line to improve readability.
+
+See examples and more information here: https://eslint.vuejs.org/rules/component-definition-name-casing.html#vue-component-definition-name-casing
+
+</details>
+
+<details>
+<summary>vue/attributes-order</summary>
+
+This rule aims to enforce ordering of component attributes. The default order is specified in the Vue.js Style Guide (opens new window)and is:
+
+- `DEFINITION` e.g. 'is', 'v-is'
+- `LIST_RENDERING` e.g. 'v-for item in items'
+- `CONDITIONALS` e.g. 'v-if', 'v-else-if', 'v-else', 'v-show', 'v-cloak'
+- `RENDER_MODIFIERS` e.g. 'v-once', 'v-pre'
+- `GLOBAL` e.g. 'id'
+- `UNIQUE` e.g. 'ref', 'key'
+- `SLOT` e.g. 'v-slot', 'slot'.
+- `TWO_WAY_BINDING` e.g. 'v-model'
+- `OTHER_DIRECTIVES` e.g. 'v-custom-directive'
+- `OTHER_ATTR` e.g. 'custom-prop="foo"', 'v-bind:prop="foo"', ':prop="foo"'
+- `EVENTS` e.g. '@click="functionCall"', 'v-on="event"'
+- `CONTENT` e.g. 'v-text', 'v-html'
+
+
+See examples and more information here: https://eslint.vuejs.org/rules/attributes-order.html#vue-attributes-order
+
+</details>
+
+<details>
+<summary>vue/no-v-html</summary>
+
+This rule reports all uses of v-html directive in order to reduce the risk of injecting potentially unsafe / unescaped html into the browser leading to Cross-Site Scripting (XSS) attacks.
+
+See examples and more information here: https://eslint.vuejs.org/rules/no-v-html.html#vue-no-v-html
 
 </details>
 
