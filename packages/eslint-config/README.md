@@ -273,6 +273,7 @@ typeof foo === 'undefined'
 
 </details>
 
+<details>
 <summary>no-use-before-define</summary>
 
 Don't use constant variables before they are defined.
