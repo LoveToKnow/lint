@@ -475,24 +475,6 @@ const str = `Time: ${12 * 60 * 60 * 1000}`
 </details>
 
 <details>
-<summary>generator-star-spacing</summary>
-
-This rule aims to enforce spacing around the \* of generator functions.
-
-```js
-// bad
-
-// good
-function* generator() {}
-
-var anonymous = function* () {}
-
-var shorthand = { *generator() {} }
-```
-
-</details>
-
-<details>
 <summary>quotes</summary>
 
 This rule enforces the consistent use of single quotes.
@@ -549,12 +531,12 @@ import a from "a"
 })()
 
 ```
+
 </details>
 
 ### Vue.js Rules
 
 Same as in [Default Rules](#default-rules), plus some vue-specific rules:
-
 
 <details>
 <summary>vue/max-attributes-per-line</summary>
@@ -614,7 +596,6 @@ This rule aims to enforce ordering of component attributes. The default order is
 - `OTHER_ATTR` e.g. 'custom-prop="foo"', 'v-bind:prop="foo"', ':prop="foo"'
 - `EVENTS` e.g. '@click="functionCall"', 'v-on="event"'
 - `CONTENT` e.g. 'v-text', 'v-html'
-
 
 See examples and more information here: https://eslint.vuejs.org/rules/attributes-order.html#vue-attributes-order
 

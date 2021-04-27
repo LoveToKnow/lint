@@ -30,7 +30,6 @@ module.exports = {
     'no-duplicate-imports': 'error',
     'no-useless-constructor': 'error',
     'prefer-template': 'error',
-    'generator-star-spacing': ['error', { before: true, after: false }],
 
     // common ones
     // biblio
