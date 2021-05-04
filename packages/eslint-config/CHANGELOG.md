@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.0.5...@lovetoknow/eslint-config@0.0.6) (2021-05-04)
+
+
+### Bug Fixes
+
+* **eslint-config:** fix vue config and let it be less strict ([5be0a28](https://github.com/LoveToKnow/lint/commit/5be0a28e7a1e3c45ebb2d21cf9a1cd4c48d1193a))
+
+
+
+
+
 ## [0.0.5](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.0.4...@lovetoknow/eslint-config@0.0.5) (2021-05-04)
 
 
