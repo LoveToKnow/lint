@@ -564,15 +564,6 @@ See examples and more information here: https://eslint.vuejs.org/rules/no-use-v-
 </details>
 
 <details>
-<summary>vue/component-name-in-template-casing</summary>
-
-This rule aims to warn the tag names other than the configured casing in Vue.js template.
-
-See examples and more information here: https://eslint.vuejs.org/rules/component-name-in-template-casing.html#vue-component-name-in-template-casing
-
-</details>
-
-<details>
 <summary>vue/component-definition-name-casing</summary>
 
 Limits the maximum number of attributes/properties per line to improve readability.
