@@ -9,16 +9,6 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'vue/max-attributes-per-line': [
-      'error',
-      {
-        singleline: 2,
-        multiline: {
-          max: 1,
-          allowFirstLine: false,
-        },
-      },
-    ],
     'vue/no-use-v-if-with-v-for': [
       'error',
       {
@@ -47,5 +37,11 @@ module.exports = {
       },
     ],
     'vue/no-v-html': 'warn',
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: { normal: 'never', void: 'always' },
+      },
+    ],
   },
 }

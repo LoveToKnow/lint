@@ -550,15 +550,6 @@ import a from "a"
 Same as in [Default Rules](#default-rules), plus some vue-specific rules:
 
 <details>
-<summary>vue/max-attributes-per-line</summary>
-
-Limits the maximum number of attributes/properties per line to improve readability.
-
-See examples and more information here: https://eslint.vuejs.org/rules/max-attributes-per-line.html
-
-</details>
-
-<details>
 <summary>vue/no-use-v-if-with-v-for</summary>
 
 This rule is aimed at preventing the use of v-for directives together with v-if directives on the same element.
@@ -618,6 +609,15 @@ See examples and more information here: https://eslint.vuejs.org/rules/attribute
 This rule reports all uses of v-html directive in order to reduce the risk of injecting potentially unsafe / unescaped html into the browser leading to Cross-Site Scripting (XSS) attacks.
 
 See examples and more information here: https://eslint.vuejs.org/rules/no-v-html.html#vue-no-v-html
+
+</details>
+
+<details>
+<summary>vue/html-self-closing</summary>
+
+This rule aims to enforce the self-closing sign as the configured style.
+
+See examples and more information here: https://eslint.vuejs.org/rules/html-self-closing.html
 
 </details>
 
