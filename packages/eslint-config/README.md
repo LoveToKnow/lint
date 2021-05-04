@@ -59,26 +59,37 @@ We export 3 ESLint configurations for your usage:
 }
 ```
 
+#### Full example
+
+```js
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+  },
+  extends: ['@lovetoknow'],
+}
+```
+
 > **NOTE:** Make sure to [specify your environment](#specifying-environments) based on your project
 
 ### Vue Config
 
 This is the recommended configuration for Vue projects.
 
-Includes everything in the default config, plus environment specification and vue-specific rules with
-
-- [`eslint-plugin-vue`](https://github.com/vuejs/eslint-plugin-vue)
-- [`vue-eslint-parser`](https://github.com/mysticatea/vue-eslint-parser)
+Includes everything in the default config, plus environment specification and vue-specific rules.
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-vue
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
 
 ```json
 {
-  "extends": "@lovetoknow/eslint-config/vue"
+  "extends": ["@lovetoknow/eslint-config/vue"]
 }
 ```
 
@@ -86,19 +97,19 @@ npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config bab
 
 This is the recommended configuration for Nuxt projects.
 
-Includes everything in the default config, plus environment specification and vue-specific rules, plus nuxt-specific rules with
+Includes everything in the default config, plus environment specification and vue-specific rules, plus nuxt-specific rules with:
 
-- [`eslint-plugin-vue`](https://github.com/vuejs/eslint-plugin-vue)
+- [`@nuxtjs/eslint-config`](https://github.com/nuxt/eslint-config/)
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-vue
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier @nuxtjs/eslint-config
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
 
 ```json
 {
-  "extends": "@lovetoknow/eslint-config/nuxt"
+  "extends": ["@lovetoknow/eslint-config/nuxt"]
 }
 ```
 
@@ -110,7 +121,7 @@ Therefor, you should specify your project's environment yourself in your ESLint 
 
 ```json
 {
-  "extends": "@lovetoknow",
+  "extends": ["@lovetoknow"],
   "env": {
     "browser": true,
     "node": true,
