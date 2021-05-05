@@ -287,33 +287,6 @@ typeof foo === 'undefined'
 </details>
 
 <details>
-<summary>no-use-before-define</summary>
-
-Don't use constant variables before they are defined.
-
-> Why? In JavaScript, prior to ES6, constiable and function declarations are hoisted to the top of a scope, so it’s possible to use identifiers before their formal declarations in code. This can be confusing and some believe it is best to always declare constant variables and functions before using them.
-> In ES6, block-level bindings (`let` and `const`) introduce a “temporal dead zone” where a `ReferenceError` will be thrown with any attempt to access the constiable before its declaration.
-
-```js
-// bad
-alert(a)
-const a = 10
-
-f()
-function f() {}
-
-// good
-let a
-a = 10
-alert(a)
-
-function f() {}
-f(1)
-```
-
-</details>
-
-<details>
 <summary>brace-style</summary>
 
 Be consistent with brace style for blocks. Keep `else` on the same line as the preceding curly brace.

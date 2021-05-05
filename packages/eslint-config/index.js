@@ -17,9 +17,6 @@ module.exports = {
     curly: 'error',
     eqeqeq: 'error',
 
-    // Variables
-    'no-use-before-define': ['error', 'nofunc'],
-
     // Stylistic (although Prettier will handle most of it)
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'one-var': ['error', 'never'],

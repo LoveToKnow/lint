@@ -39,8 +39,12 @@ module.exports = {
     'vue/html-self-closing': [
       'error',
       {
-        html: { normal: 'never', void: 'always' },
+        html: { normal: 'always', void: 'always' },
       },
     ],
+    // Disabling some rules (also will affect Nuxt config)
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/html-indent': 'off',
+    'vue/max-attributes-per-line': 'off',
   },
 }
