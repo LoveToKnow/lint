@@ -12,8 +12,8 @@ npm install --save-dev @lovetoknow/prettier-config prettier
 
 Create a `prettier.config.js` (or `.prettierrc.js`) file at the root of your project that contains:
 
-```
-module.exports = require('@lovetoknow/prettier-config');
+```js
+module.exports = require('@lovetoknow/prettier-config')
 ```
 
 ## Enforced Rules
@@ -95,3 +95,20 @@ Check out all of Prettier's [configuration options](https://prettier.io/docs/en/
   Respects whitespace the same way you would expect for inline elements in your HTML.
 
   See more info here: https://prettier.io/blog/2018/11/07/1.15.0.html#whitespace-sensitive-formatting
+
+## Overriding rules
+
+You can also choose to our [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/main/packages/prettier-config/index.js) passing addtional options like this (it is also explained in the official [docs](https://prettier.io/docs/en/configuration.html#sharing-configurations)):
+
+```diff
+// .prettierrc.js
+- module.exports = require('@lovetoknow/prettier-config')
++ module.exports = {
++  ...require('@lovetoknow/prettier-config'),
++  printWidth: 80,
++ }
+```
+
+## Overriding specific files
+
+See official docs: https://prettier.io/docs/en/configuration.html#configuration-overrides

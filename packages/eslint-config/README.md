@@ -93,6 +93,25 @@ npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config bab
 }
 ```
 
+#### Full example
+
+```js
+module.exports = {
+  root: true,
+  // https://eslint.vuejs.org/user-guide/#what-is-the-use-the-latest-vue-eslint-parser-error
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+  },
+  extends: ['@lovetoknow/eslint-config/vue'],
+}
+```
+
 ### Nuxt Config
 
 This is the recommended configuration for Nuxt projects.
@@ -110,6 +129,25 @@ npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config bab
 ```json
 {
   "extends": ["@lovetoknow/eslint-config/nuxt"]
+}
+```
+
+#### Full example
+
+```js
+module.exports = {
+  root: true,
+  // https://eslint.vuejs.org/user-guide/#what-is-the-use-the-latest-vue-eslint-parser-error
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+  },
+  extends: ['@lovetoknow/eslint-config/nuxt'],
 }
 ```
 
@@ -353,42 +391,6 @@ const a = 'a' // \n
 </details>
 
 <details>
-<summary>arrow-body-style</summary>
-
-Disallow the use of braces around arrow function body as needed. One-liners can be more readable!
-
-<!-- prettier-ignore -->
-```js
-// bad
-let foo = () => {
-  return 0
-}
-let foo = () => {
-  return {
-    bar: {
-      foo: 1,
-      bar: 2,
-    },
-  }
-}
-
-// good
-let foo = () => 0
-let foo = (retv, name) => {
-  retv[name] = true
-  return retv
-}
-let foo = () => ({
-  bar: {
-    foo: 1,
-    bar: 2,
-  },
-})
-```
-
-</details>
-
-<details>
 <summary>no-duplicate-imports</summary>
 
 All imports from a single module should exist in a single import statement.
@@ -602,9 +604,7 @@ If you'd like to override any rules, you can add the rules to your `.eslintrc.js
 
 ### Prettier
 
-If it happens to you that with auto save you see the code being transformed twice and left with the red curly underline, what is happening is that you editor (or the prettier plugin) has some options set in the workspace (or the global configuration) that are different from:
-
-our [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/main/packages/prettier-config/index.js).
+If it happens to you that with auto save you see the code being transformed twice and left with the red curly underline, what is happening is that you editor (or the prettier plugin) has some options set in the workspace (or the global configuration) that are different from our [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/main/packages/prettier-config/index.js).
 
 - For example, `printWidth` might be set in your personal settings as `80` while we have it as `100`. That's why you're editor will say something like:
 
@@ -613,6 +613,17 @@ our [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/main/pack
   ```
 
 You need to set your editor to the same rules we have in the [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/main/packages/prettier-config/index.js) in the current **workspace**.
+
+Or, as an alternative, override the prettier config ([docs](https://prettier.io/docs/en/configuration.html#sharing-configurations)):
+
+```diff
+// .prettierrc.js
+- module.exports = require('@lovetoknow/prettier-config')
++ module.exports = {
++  ...require('@lovetoknow/prettier-config'),
++  printWidth: 80,
++ }
+```
 
 ### Jest
 

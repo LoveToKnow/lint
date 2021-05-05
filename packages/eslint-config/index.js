@@ -23,7 +23,6 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
 
     // ES6
-    'arrow-body-style': ['error', 'as-needed'],
     'no-duplicate-imports': 'error',
     'no-useless-constructor': 'error',
     'prefer-template': 'error',
