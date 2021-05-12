@@ -46,5 +46,6 @@ module.exports = {
     'vue/html-closing-bracket-newline': 'off',
     'vue/html-indent': 'off',
     'vue/max-attributes-per-line': 'off',
+    'vue/singleline-html-element-content-newline': 'off', // not very friendly with prettier and the printWidth option
   },
 }
