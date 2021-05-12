@@ -27,7 +27,6 @@
     "eslint": "^7.x.x",
     "eslint-config-prettier": "^8.x.x",
     "eslint-plugin-prettier": "^3.x.x",
-    "eslint-plugin-prettier-vue": "^3.0.0",
     "prettier": "^2.x.x"
   }
 }
