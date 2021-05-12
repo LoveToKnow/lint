@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.2...@lovetoknow/eslint-config@0.1.3) (2021-05-12)
+
+
+### Bug Fixes
+
+* **eslint-config:** remove old rule and package ([d133173](https://github.com/LoveToKnow/lint/commit/d133173f6b9eb08136e7b2b27ea92ac986ad0935)), closes [/github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md#version-800-2021-02-21](https://github.com//github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md/issues/version-800-2021-02-21)
+
+
+
+
+
 ## [0.1.2](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.1...@lovetoknow/eslint-config@0.1.2) (2021-05-12)
 
 
