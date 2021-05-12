@@ -1,7 +1,7 @@
 const prettierConfig = require('@lovetoknow/prettier-config')
 
 module.exports = {
-  extends: ['eslint:recommended', 'eslint-config-prettier', 'plugin:prettier/recommended'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
@@ -9,7 +9,6 @@ module.exports = {
   env: {
     es6: true,
   },
-  plugins: ['eslint-plugin-prettier'],
   rules: {
     'no-console': ['error', { allow: ['warn', 'error'] }],
 
@@ -30,7 +29,11 @@ module.exports = {
     // common ones
     // biblio
     semi: ['error', 'never'],
-    quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+    quotes: [
+      'error',
+      'single',
+      { avoidEscape: true, allowTemplateLiterals: true },
+    ],
 
     // wf
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',

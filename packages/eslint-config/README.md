@@ -82,7 +82,7 @@ This is the recommended configuration for Vue projects.
 Includes everything in the default config, plus environment specification and vue-specific rules.
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-prettier-vue
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
