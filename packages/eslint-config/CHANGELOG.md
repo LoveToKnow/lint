@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.0.9...@lovetoknow/eslint-config@0.1.0) (2021-05-12)
+
+
+### Features
+
+* **eslint-config:** add another exception for vue ([03a5496](https://github.com/LoveToKnow/lint/commit/03a5496737453853957f8da6118d09f46b043e5f))
+
+
+
+
+
 ## [0.0.9](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.0.8...@lovetoknow/eslint-config@0.0.9) (2021-05-05)
 
 

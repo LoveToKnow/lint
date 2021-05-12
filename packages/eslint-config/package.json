@@ -1,6 +1,6 @@
 {
   "name": "@lovetoknow/eslint-config",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "LoveToKnow's default Eslint configuration",
   "keywords": [
     "eslint",
