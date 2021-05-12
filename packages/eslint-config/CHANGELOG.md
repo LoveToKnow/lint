@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.0...@lovetoknow/eslint-config@0.1.1) (2021-05-12)
+
+
+### Bug Fixes
+
+* **eslint-config:** update prettier version ([e0af0e9](https://github.com/LoveToKnow/lint/commit/e0af0e9145df6f82f2192c9e520421c92908a4e0))
+
+
+
+
+
 # [0.1.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.0.9...@lovetoknow/eslint-config@0.1.0) (2021-05-12)
 
 
