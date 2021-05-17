@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.3...@lovetoknow/eslint-config@0.1.4) (2021-05-17)
+
+
+### Bug Fixes
+
+* **eslint-config:** remove max-attrs rule ([ec7f5ed](https://github.com/LoveToKnow/lint/commit/ec7f5eda9c0eccc737d16a8b21dda1df12624646))
+
+
+
+
+
 ## [0.1.3](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.2...@lovetoknow/eslint-config@0.1.3) (2021-05-12)
 
 
