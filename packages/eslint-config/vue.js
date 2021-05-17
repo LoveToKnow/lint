@@ -1,7 +1,9 @@
 module.exports = {
   extends: ['plugin:vue/essential', './index.js'],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     sourceType: 'module',
+    parser: 'babel-eslint',
   },
   env: {
     browser: true,
@@ -45,12 +47,7 @@ module.exports = {
     // Disabling some rules (also will affect Nuxt config)
     'vue/html-closing-bracket-newline': 'off',
     'vue/html-indent': 'off',
-    'vue/max-attributes-per-line': [
-      'error',
-      {
-        singleline: 5,
-      },
-    ],
+    'vue/max-attributes-per-line': 'off',
     'vue/singleline-html-element-content-newline': 'off', // not very friendly with prettier and the printWidth option
   },
 }
