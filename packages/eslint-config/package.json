@@ -21,6 +21,9 @@
     "type": "git",
     "url": "git+https://github.com/LoveToKnow/lint.git"
   },
+  "scripts": {
+    "test": "echo \"Missing tests\" && exit 0"
+  },
   "devDependencies": {
     "@lovetoknow/prettier-config": "0.0.3",
     "babel-eslint": "^10.x.x",

@@ -2,15 +2,19 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "babel-eslint": "^10.x.x",
+    "babel-jest": "^27.0.1",
     "eslint": "^7.x.x",
     "eslint-config-prettier": "^8.x.x",
     "eslint-plugin-jest": "^24.3.5",
     "eslint-plugin-prettier": "^3.x.x",
+    "jest": "^27.0.1",
     "lerna": "^3.22.1",
     "prettier": "^2.x.x"
   },
   "scripts": {
-    "publish-ci": "lerna publish from-package -y --no-verify-access"
+    "publish-ci": "npm t && lerna publish from-package -y --no-verify-access",
+    "test": "lerna exec --parallel -- npm t"
   }
 }
