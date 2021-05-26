@@ -1,0 +1,8 @@
+.class {
+  color: '#fff';
+}
+
+.selector::after {
+  background-image: url('x.svg');
+  content: '→';
+}
