@@ -50,6 +50,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm ci
-      - run: npm publish-ci -- --registry https://registry.npmjs.org/
+      - run: npm run publish-ci -- --registry https://registry.npmjs.org/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
