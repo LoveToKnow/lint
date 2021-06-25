@@ -20,7 +20,7 @@ We provide 2 configurations:
 This is how you include it in a project
 
 ```
-npm i -D @lovetoknow/stylelint-config stylelint stylelint-config-standard stylelint-config-sass-guidelines stylelint-config-prettier
+npm i -D @lovetoknow/stylelint-config
 ```
 
 ### Usage

@@ -6,7 +6,7 @@
     "stylelint",
     "lint"
   ],
-  "author": "gangsthub <paulmelero@gmail.com>",
+  "author": "LoveToKnow",
   "homepage": "https://github.com/LoveToKnow/lint#readme",
   "license": "MIT",
   "main": "index.js",
@@ -30,5 +30,11 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^22.0.0"
-  }
+  },
+  "bundledDependencies": [
+    "stylelint",
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-prettier"
+  ]
 }
