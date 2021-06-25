@@ -1,7 +1,7 @@
 {
   "name": "@lovetoknow/prettier-config",
   "version": "0.0.3",
-  "description": "Prettier default config",
+  "description": "LoveToKnow's default Prettier configuration",
   "author": "LoveToKnow",
   "homepage": "https://github.com/LoveToKnow/lint",
   "license": "MIT",

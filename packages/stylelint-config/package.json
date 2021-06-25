@@ -1,7 +1,7 @@
 {
   "name": "@lovetoknow/stylelint-config",
   "version": "0.0.0",
-  "description": "Stylelint config",
+  "description": "LoveToKnow's default Stylelint configuration",
   "keywords": [
     "stylelint",
     "lint"
@@ -30,11 +30,5 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^22.0.0"
-  },
-  "bundledDependencies": [
-    "stylelint",
-    "stylelint-config-standard",
-    "stylelint-config-sass-guidelines",
-    "stylelint-config-prettier"
-  ]
+  }
 }
