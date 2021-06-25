@@ -22,8 +22,7 @@
     "test:watch": "npm t -- --watch"
   },
   "files": [
-    "index.js",
-    "vanilla.js"
+    "index.js"
   ],
   "devDependencies": {
     "stylelint": "^13.13.1",
