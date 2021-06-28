@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.5...@lovetoknow/eslint-config@0.2.0) (2021-06-28)
+
+
+### Features
+
+* **stylelint-config:** support for tailwind directives ([cf4c992](https://github.com/LoveToKnow/lint/commit/cf4c992c5aa858ae807f0004deead0a00b3aac82))
+
+
+
+
+
 ## [0.1.5](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.4...@lovetoknow/eslint-config@0.1.5) (2021-06-25)
 
 **Note:** Version bump only for package @lovetoknow/eslint-config
