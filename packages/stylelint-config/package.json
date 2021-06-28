@@ -19,7 +19,9 @@
   },
   "scripts": {
     "test": "jest",
-    "test:watch": "npm t -- --watch"
+    "test:watch": "npm t -- --watch",
+    "lint:style": "stylelint . --ignore-path .gitignore --config stylelint.config.js",
+    "lint:style:fix": "npm run lint:style -- --fix"
   },
   "files": [
     "index.js"

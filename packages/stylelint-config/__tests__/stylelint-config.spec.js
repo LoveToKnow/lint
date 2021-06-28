@@ -4,6 +4,7 @@ const stylelint = require('stylelint')
 
 const validCss = fs.readFileSync('./__tests__/valid.css', 'utf-8')
 const invalidCss = fs.readFileSync('./__tests__/invalid.css', 'utf-8')
+const tailwindCss = fs.readFileSync('./__tests__/tailwind.css', 'utf-8')
 
 describe('stylelint-config', () => {
   describe('flags no warnings with valid css', () => {
@@ -42,6 +43,23 @@ describe('stylelint-config', () => {
     it('flags 2 warnings', () => {
       return result.then(data => {
         expect(data.results[0].warnings).toHaveLength(2)
+      })
+    })
+  })
+
+  describe('tailwind css', () => {
+    let result
+
+    beforeEach(() => {
+      result = stylelint.lint({
+        code: tailwindCss,
+        config,
+      })
+    })
+
+    it('flags no warnings', () => {
+      return result.then(data => {
+        expect(data.results[0].warnings).toHaveLength(0)
       })
     })
   })

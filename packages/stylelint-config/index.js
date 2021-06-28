@@ -25,5 +25,21 @@ module.exports = {
         ignorePseudoElements: ['v-deep'],
       },
     ],
+    // Tailwind
+    // https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/at-rule-no-unknown/README.md
+    'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          /tailwind/,
+          /apply/,
+          /layer/,
+          /variants/,
+          /responsive/,
+          /screen/,
+        ],
+      },
+    ],
+    'declaration-block-trailing-semicolon': null,
   },
 }
