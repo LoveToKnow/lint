@@ -70,6 +70,8 @@ module.exports = {
     jest: true,
   },
   extends: ['@lovetoknow'],
+  // add your custom rules here
+  rules: {},
 }
 ```
 
@@ -98,17 +100,14 @@ npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config bab
 ```js
 module.exports = {
   root: true,
-  // https://eslint.vuejs.org/user-guide/#what-is-the-use-the-latest-vue-eslint-parser-error
-  parser: 'vue-eslint-parser',
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
   env: {
     browser: true,
     node: true,
     jest: true,
   },
   extends: ['@lovetoknow/eslint-config/vue'],
+  // add your custom rules here
+  rules: {},
 }
 ```
 
@@ -137,17 +136,14 @@ npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config bab
 ```js
 module.exports = {
   root: true,
-  // https://eslint.vuejs.org/user-guide/#what-is-the-use-the-latest-vue-eslint-parser-error
-  parser: 'vue-eslint-parser',
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
   env: {
     browser: true,
     node: true,
     jest: true,
   },
   extends: ['@lovetoknow/eslint-config/nuxt'],
+  // add your custom rules here
+  rules: {},
 }
 ```
 
