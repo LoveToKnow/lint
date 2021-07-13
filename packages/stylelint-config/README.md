@@ -13,7 +13,7 @@ Recommended: install a extension for your IDE/editor. Examples:
 This is how you include it in a project
 
 ```
-npm i -D @lovetoknow/stylelint-config stylelint-config-standard stylelint-config-sass-guidelines stylelint-config-prettier
+npm i -D @lovetoknow/stylelint-config stylelint stylelint-config-standard stylelint-config-sass-guidelines stylelint-config-prettier
 ```
 
 ### Usage
@@ -36,3 +36,19 @@ module.exports = {
 ```
 
 See more on how to configure stylelint: https://stylelint.io/user-guide/configure
+
+### Tooling
+
+It is highly recommended to have the corresponding Stylelint IDE Extension:
+
+- **VS Code**: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+
+#### VS Code Config
+
+You'll probably need to add this rule in your `.vscode/settings.json`:
+
+```json
+{
+  "css.validate": false
+}
+```
