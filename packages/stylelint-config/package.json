@@ -26,6 +26,9 @@
   "files": [
     "index.js"
   ],
+  "peerDependencies": {
+    "stylelint": "^13"
+  },
   "devDependencies": {
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
