@@ -9,7 +9,7 @@ Includes our [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/
 1. Install all dependencies
 
    ```
-   npm install --save-dev @lovetoknow/eslint-config@latest @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier
+   npm install --save-dev @lovetoknow/eslint-config@latest @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier@3 prettier
 
    # or
 
