@@ -4,16 +4,18 @@ Lovetoknow's [`ESLint`](https://eslint.org/) configuration.
 
 Includes our [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/main/packages/prettier-config/index.js).
 
+Includes our [`ESLint-TailwindCSS configuration`](https://github.com/LoveToKnow/lint/blob/main/packages/eslint-tailwind-config/index.js).
+
 ## Installation
 
 1. Install all dependencies
 
    ```
-   npm install --save-dev @lovetoknow/eslint-config@latest @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier@3 prettier
+   npm install --save-dev @lovetoknow/eslint-config@latest @lovetoknow/prettier-config @lovetoknow/eslint-tailwind-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier@3 prettier
 
    # or
 
-   yarn add --dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier
+   yarn add --dev @lovetoknow/eslint-config @lovetoknow/prettier-config @lovetoknow/eslint-tailwind-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier
    ```
 
 2. Create an `.eslintrc.js` file at the root of your project with the following:
