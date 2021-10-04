@@ -1,3 +1,8 @@
 module.exports = {
-  extends: ['@nuxtjs', 'plugin:nuxt/recommended', './vue.js'],
+  extends: [
+    '@nuxtjs',
+    'plugin:nuxt/recommended',
+    './vue.js',
+    '@lovetoknow/eslint-tailwind-config',
+  ],
 }
