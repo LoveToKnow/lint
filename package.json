@@ -9,6 +9,7 @@
     "eslint-config-prettier": "^8.x.x",
     "eslint-plugin-jest": "^24.3.5",
     "eslint-plugin-prettier": "^3.x.x",
+    "eslint-plugin-vuejs-accessibility": "^1.1.1",
     "jest": "^27.0.1",
     "lerna": "^3.22.1",
     "prettier": "^2.x.x"
