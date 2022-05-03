@@ -86,7 +86,7 @@ This is the recommended configuration for Vue projects.
 Includes everything in the default config, plus environment specification and vue-specific rules.
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-prettier-vue
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-prettier-vue eslint-plugin-vuejs-accessibility
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
@@ -122,7 +122,7 @@ Includes everything in the default config, plus environment specification and vu
 - [`@nuxtjs/eslint-config`](https://github.com/nuxt/eslint-config/)
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier @nuxtjs/eslint-config
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier @nuxtjs/eslint-config eslint-plugin-vuejs-accessibility
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
@@ -584,6 +584,10 @@ This rule aims to enforce the self-closing sign as the configured style.
 See examples and more information here: https://eslint.vuejs.org/rules/html-self-closing.html
 
 </details>
+
+### Vue accessibility
+
+All rules from the [Vue a11y plugin](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) are enforced and will be reported as warnings.
 
 ## Overriding Rules
 
