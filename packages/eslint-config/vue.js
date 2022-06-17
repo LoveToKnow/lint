@@ -10,7 +10,7 @@ const a11yAsWarning = Object.keys(vueA11y.rules).reduce(
 module.exports = {
   extends: [
     'plugin:vue/essential',
-    './index.js',
+    './browser.js',
     'plugin:vuejs-accessibility/recommended',
   ],
   plugins: ['vuejs-accessibility'],
