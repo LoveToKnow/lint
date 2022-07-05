@@ -4,7 +4,6 @@ const { name } = require('./package')
 
 module.exports = {
   ...base,
-  name,
   displayName: name,
   rootDir: '../..',
 }

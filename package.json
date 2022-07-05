@@ -15,14 +15,11 @@
     "jest": "^27.0.1",
     "lerna": "^3.22.1",
     "prettier": "^2.x.x",
-    "stylelint": "^14.9.1",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-sass-guidelines": "^9.0.1",
-    "stylelint-config-standard": "^26.0.0"
+    "stylelint-config-prettier": "^9.0.3"
   },
   "scripts": {
     "publish-ci": "npm t && lerna publish from-package -y --no-verify-access",
-    "test": "lerna exec --parallel -- npm t",
+    "test": "lerna run test",
     "test:watch": "npm t -- --watch",
     "lint": "lerna run lint"
   }
