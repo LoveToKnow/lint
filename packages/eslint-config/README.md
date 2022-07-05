@@ -1,4 +1,4 @@
-# eslint-config
+# `eslint-config`
 
 Lovetoknow's [`ESLint`](https://eslint.org/) configuration.
 
