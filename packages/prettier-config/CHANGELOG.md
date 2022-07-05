@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@0.1.1...@lovetoknow/prettier-config@0.1.2) (2022-07-05)
+
+**Note:** Version bump only for package @lovetoknow/prettier-config
+
+
+
+
+
 ## [0.1.1](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@0.1.0...@lovetoknow/prettier-config@0.1.1) (2022-07-05)
 
 **Note:** Version bump only for package @lovetoknow/prettier-config
