@@ -17,6 +17,7 @@
   "scripts": {
     "publish-ci": "npm t && lerna publish from-package -y --no-verify-access",
     "test": "lerna exec --parallel -- npm t",
-    "test:watch": "npm t -- --watch"
+    "test:watch": "npm t -- --watch",
+    "lint": "lerna run lint"
   }
 }

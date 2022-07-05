@@ -1,6 +1,5 @@
 module.exports = {
-  extends: ['tailwindcss/recommended'],
-  plugins: ['tailwindcss'],
+  extends: ['plugin:tailwindcss/recommended'],
   // add the custom rules here
   rules: {
     'tailwindcss/classnames-order': 'warn',
