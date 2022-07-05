@@ -1,6 +1,6 @@
 # `eslint-config`
 
-Lovetoknow's [`ESLint`](https://eslint.org/) configuration.
+Lovetoknow's [`ESLint`](https://eslint.org/) default configuration.
 
 Includes our [`Prettier configuration`](https://github.com/LoveToKnow/lint/blob/main/packages/prettier-config/index.js).
 
