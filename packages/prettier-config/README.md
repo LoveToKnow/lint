@@ -1,11 +1,10 @@
 # `@lovetoknow/prettier-config`
 
-> LoveToKnow's Prettier configuration
+> LoveToKnow's Prettier default configuration
 
 ℹ ALREADY INCLUDED IN [`@lovetoknow/eslint-config`](https://github.com/LoveToKnow/lint/tree/main/packages/eslint-config)
 
-If you have the eslint configuration with LTK's rules and you followed the instructions in https://github.com/LoveToKnow/lint/blob/main/packages/eslint-config/README.md you don't need to install `@lovetoknow/prettier-config` because you already have it.
----
+## If you have the eslint configuration with LTK's rules and you followed the instructions in https://github.com/LoveToKnow/lint/blob/main/packages/eslint-config/README.md you don't need to install `@lovetoknow/prettier-config` because you already have it.
 
 ## Installation
 

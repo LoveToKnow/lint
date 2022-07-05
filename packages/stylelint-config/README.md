@@ -1,6 +1,6 @@
 # `@lovetoknow/stylelint-config`
 
-> LTK's default stylelint config.
+> LTK's default stylelint configuration.
 
 Recommended: install a extension for your IDE/editor. Examples:
 

@@ -1,6 +1,6 @@
 # `@lovetoknow/eslint-tailwind-config`
 
-> LoveToKnow's Eslint for TailwindCSS configuration
+> LoveToKnow's Eslint default configuration for TailwindCSS
 
 ## Installation
 
