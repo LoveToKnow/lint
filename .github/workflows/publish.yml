@@ -18,5 +18,4 @@ jobs:
       - name: Publish 🚀
         uses: LoveToKnow/ltk-publish-lerna-action@main
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.PRIVATE_REPO_PAT }}
           PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
