@@ -1,6 +1,6 @@
 {
   "name": "@lovetoknow/stylelint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "LoveToKnow's default Stylelint configuration",
   "keywords": [
     "stylelint",
