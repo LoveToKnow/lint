@@ -1,55 +1,21 @@
-name: Publish Packages on NPM
-
+name: Publish
 on:
-  release:
-    types: [published]
-
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/**'
 jobs:
-  ci:
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [12]
-    runs-on: ${{ matrix.os }}
-
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node }}
-
-      - name: Cache node_modules
-        uses: actions/cache@v2
-        with:
-          path: |
-            node_modules
-            */*/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install dependencies
-        run: npm ci
-
-  publish-npm:
-    needs: [ci]
+  publish-lerna-packages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
         with:
-          node-version: ${{ matrix.node }}
-          registry-url: https://registry.npmjs.org/
-      - name: Cache node_modules
-        uses: actions/cache@v2
-        with:
-          path: |
-            node_modules
-            */*/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-      - run: npm ci
-      - run: npm run publish-ci -- --registry https://registry.npmjs.org/
+          # pulls all commits (needed for lerna / semantic release to correctly version)
+          fetch-depth: "0"
+
+      - name: Publish 🚀
+        uses: LoveToKnow/ltk-publish-lerna-action@main
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}

@@ -18,7 +18,6 @@
     "stylelint-config-prettier": "^9.0.3"
   },
   "scripts": {
-    "publish-ci": "npm t && lerna publish from-package -y --no-verify-access",
     "test": "lerna run test",
     "test:watch": "npm t -- --watch",
     "lint": "lerna run lint"
