@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.2.0...@lovetoknow/eslint-config@0.3.0) (2022-07-05)
+
+
+### Features
+
+* **eslint-config:** add all eslint-plugin-vuejs-accessibility rules as warning ([6a3872a](https://github.com/LoveToKnow/lint/commit/6a3872a59e755060895ec8f617e0fafdf85ef5fe))
+* **eslint-config:** remove deprecated babel-eslint, added @babel/eslint-parser ([00042ec](https://github.com/LoveToKnow/lint/commit/00042ec9873018785f6c6ffe2bcde40ea05c84fd))
+
+
+### BREAKING CHANGES
+
+* **eslint-config:** apps/modules that consume this package will have to install eslint-plugin-vuejs-accessibility
+
+
+
+
+
 # [0.2.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.1.5...@lovetoknow/eslint-config@0.2.0) (2021-06-28)
 
 

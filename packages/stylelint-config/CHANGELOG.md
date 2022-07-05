@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/stylelint-config@0.2.1...@lovetoknow/stylelint-config@0.3.0) (2022-07-05)
+
+
+### Features
+
+* **eslint-config:** remove deprecated babel-eslint, added @babel/eslint-parser ([00042ec](https://github.com/LoveToKnow/lint/commit/00042ec9873018785f6c6ffe2bcde40ea05c84fd))
+* **eslint-config:** remove deprecated babel-eslint, added @babel/eslint-parser ([5ac8a10](https://github.com/LoveToKnow/lint/commit/5ac8a10ccfb8bc89268261e2b30810373940693b))
+
+
+
+
+
 ## [0.2.1](https://github.com/LoveToKnow/lint/compare/@lovetoknow/stylelint-config@0.2.0...@lovetoknow/stylelint-config@0.2.1) (2021-07-13)
 
 **Note:** Version bump only for package @lovetoknow/stylelint-config

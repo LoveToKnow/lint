@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@0.0.4...@lovetoknow/prettier-config@0.1.0) (2022-07-05)
+
+
+### Features
+
+* **eslint-config:** remove deprecated babel-eslint, added @babel/eslint-parser ([00042ec](https://github.com/LoveToKnow/lint/commit/00042ec9873018785f6c6ffe2bcde40ea05c84fd))
+
+
+
+
+
 ## [0.0.4](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@0.0.3...@lovetoknow/prettier-config@0.0.4) (2021-06-25)
 
 **Note:** Version bump only for package @lovetoknow/prettier-config
