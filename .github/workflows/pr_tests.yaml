@@ -21,7 +21,9 @@ jobs:
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.PRIVATE_REPO_PAT }}" >> .npmrc
 
       - name: Install dependencies 📦
-        run: npm install && npx lerna bootstrap
+        run: |
+          npm install
+          npx lerna bootstrap
 
       - name: Lint 🧹
         run: npm run lint
