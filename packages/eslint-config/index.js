@@ -2,7 +2,7 @@ const prettierConfig = require('@lovetoknow/prettier-config')
 
 module.exports = {
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2018,
   },
