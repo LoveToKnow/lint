@@ -1,6 +1,6 @@
 # `@lovetoknow/prettier-config`
 
-> LoveToKnow's Prettier default configuration
+> LoveToKnow's Prettier configuration
 
 ℹ ALREADY INCLUDED IN [`@lovetoknow/eslint-config`](https://github.com/LoveToKnow/lint/tree/main/packages/eslint-config)
 
