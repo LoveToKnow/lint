@@ -1,24 +1,30 @@
-name: PR Checks
+name: Lint & Tests
 
 on: [pull_request]
 
 jobs:
-  unit_tests:
+  lint_and_test:
+    name: Unit Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v2
+      - name: Setup Node 14 💻
+        uses: actions/setup-node@v1
         with:
-          path: |
-            node_modules
-            */*/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-      - name: Check the code 👀
-        uses: LoveToKnow/ltk-pr-action@main
-        env:
-          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Add CI PAT to npmrc file ✍🏽
+        # secrets.GITHUB_TOKEN doesn't has access to other (private) repos.
+        # so for `npm install`ing, we need a PAT
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.PRIVATE_REPO_PAT }}" >> .npmrc
+
+      - name: Install dependencies 📦
+        run: npm install
+
+      - name: Lint 🧹
+        run: npm run lint
+
+      - name: Test 🔬
+        run: npm run test
