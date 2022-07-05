@@ -4,8 +4,7 @@ const { name } = require('./package')
 
 module.exports = {
   ...base,
-  name,
   displayName: name,
-  rootDir: '../..',
+  rootDir: '.',
   // testMatch: [`<rootDir>/packages/${name}/**/*.spec.js`],
 }

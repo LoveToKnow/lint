@@ -1,10 +1,20 @@
 const config = require('..')
 const fs = require('fs')
+const path = require('path')
 const stylelint = require('stylelint')
 
-const validCss = fs.readFileSync('./__tests__/valid.css', 'utf-8')
-const invalidCss = fs.readFileSync('./__tests__/invalid.css', 'utf-8')
-const tailwindCss = fs.readFileSync('./__tests__/tailwind.css', 'utf-8')
+const validCss = fs.readFileSync(
+  path.resolve(__dirname, './valid.css'),
+  'utf-8'
+)
+const invalidCss = fs.readFileSync(
+  path.resolve(__dirname, './invalid.css'),
+  'utf-8'
+)
+const tailwindCss = fs.readFileSync(
+  path.resolve(__dirname, './tailwind.css'),
+  'utf-8'
+)
 
 describe('stylelint-config', () => {
   describe('flags no warnings with valid css', () => {

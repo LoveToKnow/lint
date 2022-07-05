@@ -2,8 +2,10 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-env": "^7.18.6",
     "@types/jest": "^26.0.23",
-    "babel-eslint": "^10.x.x",
     "babel-jest": "^27.0.1",
     "eslint": "^7.x.x",
     "eslint-config-prettier": "^8.x.x",
@@ -12,11 +14,13 @@
     "eslint-plugin-vuejs-accessibility": "^1.1.1",
     "jest": "^27.0.1",
     "lerna": "^3.22.1",
-    "prettier": "^2.x.x"
+    "prettier": "^2.x.x",
+    "stylelint-config-prettier": "^9.0.3"
   },
   "scripts": {
     "publish-ci": "npm t && lerna publish from-package -y --no-verify-access",
-    "test": "lerna exec --parallel -- npm t",
-    "test:watch": "npm t -- --watch"
+    "test": "lerna run test",
+    "test:watch": "npm t -- --watch",
+    "lint": "lerna run lint"
   }
 }
