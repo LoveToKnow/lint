@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.3.4...@lovetoknow/eslint-config@0.4.0) (2022-07-06)
+
+
+### Features
+
+* test new nuxt config (WIP) ([d6c9f81](https://github.com/LoveToKnow/lint/commit/d6c9f81a7671dfce0de331c72bfc5ecb85974dc4))
+
+
+
+
+
 ## [0.3.4](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.3.3...@lovetoknow/eslint-config@0.3.4) (2022-07-05)
 
 **Note:** Version bump only for package @lovetoknow/eslint-config
