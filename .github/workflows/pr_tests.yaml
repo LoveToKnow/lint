@@ -6,6 +6,8 @@ jobs:
   lint_and_test:
     name: Unit Tests
     runs-on: ubuntu-latest
+    env:
+      PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
