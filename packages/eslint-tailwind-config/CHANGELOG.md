@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-tailwind-config@0.1.2...@lovetoknow/eslint-tailwind-config@0.2.0) (2022-07-06)
+
+
+### Features
+
+* trigger tailwind publish ([386ec34](https://github.com/LoveToKnow/lint/commit/386ec34888d8935331dad6fb3058df9ab0d977ae))
+
+
+
+
+
 ## [0.1.2](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-tailwind-config@0.1.1...@lovetoknow/eslint-tailwind-config@0.1.2) (2022-07-05)
 
 **Note:** Version bump only for package @lovetoknow/eslint-tailwind-config
