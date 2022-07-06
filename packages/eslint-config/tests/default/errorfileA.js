@@ -1,8 +1,6 @@
-// prettier-ignore
-
 const c = class {
   constructor() {
-    console.log(super());
+    console.log(super())
   }
 }
 

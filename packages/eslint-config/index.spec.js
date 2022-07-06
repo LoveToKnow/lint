@@ -30,7 +30,8 @@ describe('Validate ESLint configs', () => {
   it.each([
     ['./tests/default/.eslintrc.js', './tests/default/errorfileA.js', 3],
     ['./tests/vue/.eslintrc.js', './tests/vue/errorVueA.vue', 2],
-    ['./tests/nuxt/.eslintrc.js', './tests/nuxt/errorNuxtA.vue', 3],
+    // skipped Nuxt config for now
+    // ['./tests/nuxt/.eslintrc.js', './tests/nuxt/errorNuxtA.vue', 3],
   ])(
     `load config %s in ESLint to validate incorrect file %s with %d errors`,
     (configFile, valiFileToTest, errorCount) => {

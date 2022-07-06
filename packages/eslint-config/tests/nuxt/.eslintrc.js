@@ -1,9 +1,8 @@
 module.exports = {
-  extends: ['../../nuxt.js'],
+  extends: ['../../nuxt'],
   root: true,
   env: {
-    browser: true,
-    node: true,
     jest: true,
+    node: true,
   },
 }

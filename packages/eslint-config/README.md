@@ -122,7 +122,7 @@ Includes everything in the default config, plus environment specification and vu
 - [`@nuxtjs/eslint-config`](https://github.com/nuxt/eslint-config/)
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3 @nuxtjs/eslint-config@6 eslint-plugin-vuejs-accessibility
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3 @nuxtjs/eslint-config@6 eslint-plugin-tailwindcss eslint-plugin-vuejs-accessibility eslint-plugin-unicorn@40
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
