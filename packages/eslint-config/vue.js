@@ -8,11 +8,13 @@ const a11yAsWarning = Object.keys(vueA11y.rules).reduce(
 )
 
 module.exports = {
-  extends: [
-    'plugin:vue/essential',
-    './index.js',
-    'plugin:vuejs-accessibility/recommended',
+  overrides: [
+    {
+      files: ['*.vue', '*.js'],
+      rules: require('./index.js').rules,
+    },
   ],
+  extends: ['plugin:vue/essential', 'plugin:vuejs-accessibility/recommended'],
   plugins: ['vuejs-accessibility'],
   parser: 'vue-eslint-parser',
   parserOptions: {

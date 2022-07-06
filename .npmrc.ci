@@ -1,0 +1,2 @@
+registry=https://npm.pkg.github.com/lovetoknow
+//npm.pkg.github.com/:_authToken=${{ secrets.PRIVATE_REPO_PAT }}

@@ -2,7 +2,7 @@
 
 const c = class {
   constructor() {
-    super()
+    console.log(super());
   }
 }
 
