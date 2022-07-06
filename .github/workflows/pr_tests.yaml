@@ -25,6 +25,11 @@ jobs:
           mv .npmrc.ci .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.PRIVATE_REPO_PAT }}" >> .npmrc
 
+          for package in ./packages/*/;
+          do
+            cp .npmrc $package/.npmrc
+          done
+
       - name: Install dependencies 📦
         run: |
           npm install
