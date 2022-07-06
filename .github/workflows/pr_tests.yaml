@@ -16,6 +16,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
         env:
           PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
+          NODE_AUTH_TOKEN: ${{ secrets.PRIVATE_REPO_PAT }}
 
       - name: Add CI PAT to npmrc file ✍🏽
         # secrets.GITHUB_TOKEN doesn't has access to other (private) repos.
