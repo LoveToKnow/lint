@@ -18,7 +18,7 @@ jobs:
       - name: Add CI PAT to npmrc file ✍🏽
         # secrets.GITHUB_TOKEN doesn't has access to other (private) repos.
         # so for `npm install`ing, we need a PAT
-        run: mv /.npmrc.ci .npmrc
+        run: mv .npmrc.ci .npmrc
 
       - name: Install dependencies 📦
         run: |
