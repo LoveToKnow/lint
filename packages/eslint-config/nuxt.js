@@ -1,22 +1,24 @@
-const vueConfig = require('./vue')
-const tailwindConfig = require('@lovetoknow/eslint-tailwind-config')
 const prettierConfig = require('@lovetoknow/prettier-config')
 
 module.exports = {
-  ...require('./index.js'),
-  ...vueConfig,
   extends: [
     'eslint:recommended',
-    'plugin:prettier/recommended',
     '@nuxtjs',
     'plugin:nuxt/recommended',
-    ...tailwindConfig.extends,
-    ...vueConfig.extends,
+    require.resolve('./vue'),
+    require.resolve('@lovetoknow/eslint-tailwind-config'),
+    'plugin:prettier/recommended', // this one needs to be after the nuxt one
   ],
-  overrides: [...vueConfig.overrides],
+  parser: 'vue-eslint-parser',
+  env: {
+    es6: true,
+    browser: true,
+    node: true,
+    jest: true,
+  },
+  plugins: ['vuejs-accessibility'],
   rules: {
-    ...vueConfig.rules,
-    ...tailwindConfig.rules,
+    'nuxt/no-this-in-fetch-data': 'error',
     'prettier/prettier': [
       'error',
       {

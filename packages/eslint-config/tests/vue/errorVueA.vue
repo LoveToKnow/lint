@@ -16,7 +16,6 @@ export default {
       b: 'hello',
     }
   },
-  name: 'test-component',
+  name: 'Test-Component',
 }
 </script>
-

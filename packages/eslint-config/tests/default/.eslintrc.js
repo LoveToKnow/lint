@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['../../.eslintrc.js'],
+  extends: require.resolve('../../.eslintrc.js'),
   root: true,
 }

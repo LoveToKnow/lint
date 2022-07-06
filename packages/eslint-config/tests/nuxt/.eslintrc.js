@@ -1,8 +1,4 @@
 module.exports = {
-  extends: ['../../nuxt'],
+  extends: require.resolve('../../nuxt.js'),
   root: true,
-  env: {
-    jest: true,
-    node: true,
-  },
 }
