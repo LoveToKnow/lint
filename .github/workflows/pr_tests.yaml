@@ -6,8 +6,6 @@ jobs:
   lint_and_test:
     name: Unit Tests
     runs-on: ubuntu-latest
-    env:
-      PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
@@ -16,11 +14,15 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
+        env:
+          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
 
       - name: Add CI PAT to npmrc file ✍🏽
         # secrets.GITHUB_TOKEN doesn't has access to other (private) repos.
         # so for `npm install`ing, we need a PAT
-        run: mv .npmrc.ci .npmrc
+        run: |
+          mv .npmrc.ci .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.PRIVATE_REPO_PAT }}" >> .npmrc
 
       - name: Install dependencies 📦
         run: |
