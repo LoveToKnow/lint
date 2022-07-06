@@ -36,7 +36,9 @@ jobs:
           npx lerna bootstrap
 
       - name: Lint 🧹
-        run: npm run lint
+        run: |
+          echo "/tests" >> ./packages/eslint-config/.eslintignore
+          npm run lint
 
       - name: Test 🔬
         run: npm run test
