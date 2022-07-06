@@ -24,6 +24,8 @@ jobs:
         run: |
           npm install
           npx lerna bootstrap
+        env:
+          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
 
       - name: Lint 🧹
         run: npm run lint
