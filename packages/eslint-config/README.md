@@ -11,11 +11,11 @@ Includes our [`ESLint-TailwindCSS configuration`](https://github.com/LoveToKnow/
 1. Install all dependencies
 
    ```
-   npm install --save-dev @lovetoknow/eslint-config@latest @lovetoknow/prettier-config @lovetoknow/eslint-tailwind-config @babel/eslint-parser eslint eslint-config-prettier eslint-plugin-prettier@3 prettier
+   npm install --save-dev @lovetoknow/eslint-config@latest @lovetoknow/prettier-config @lovetoknow/eslint-tailwind-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3
 
    # or
 
-   yarn add --dev @lovetoknow/eslint-config @lovetoknow/prettier-config @lovetoknow/eslint-tailwind-config @babel/eslint-parser eslint eslint-config-prettier eslint-plugin-prettier prettier
+   yarn add --dev @lovetoknow/eslint-config @lovetoknow/prettier-config @lovetoknow/eslint-tailwind-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3
    ```
 
 2. Create an `.eslintrc.js` file at the root of your project with the following:
@@ -86,7 +86,7 @@ This is the recommended configuration for Vue projects.
 Includes everything in the default config, plus environment specification and vue-specific rules.
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-prettier-vue eslint-plugin-vuejs-accessibility
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3 eslint-plugin-vuejs-accessibility
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
@@ -122,7 +122,7 @@ Includes everything in the default config, plus environment specification and vu
 - [`@nuxtjs/eslint-config`](https://github.com/nuxt/eslint-config/)
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config babel-eslint eslint eslint-config-prettier eslint-plugin-prettier prettier @nuxtjs/eslint-config eslint-plugin-vuejs-accessibility
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3 @nuxtjs/eslint-config@6 eslint-plugin-tailwindcss eslint-plugin-vuejs-accessibility eslint-plugin-unicorn@40
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
