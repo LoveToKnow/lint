@@ -50,6 +50,7 @@ We export 3 ESLint configurations for your usage:
 1. [Default](#default-config)
 1. [Vue](#vue-config)
 1. [Nuxt](#nuxt-config)
+1. [Typescript](#typescript-config)
 
 ### Default Config
 
@@ -144,6 +145,40 @@ module.exports = {
     jest: true,
   },
   extends: ['@lovetoknow/eslint-config/nuxt'],
+  // add your custom rules here
+  rules: {},
+}
+```
+
+### Typescript Config
+
+This is the recommended configuration for Vue projects.
+
+Includes everything in the default config, plus environment specification and vue-specific rules.
+
+```sh
+npm install --save-dev @lovetoknow/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint@^7.32.0 typescript
+```
+
+**In your `.eslintrc`:** (or `.eslintrc.js`)
+
+```json
+{
+  "extends": ["@lovetoknow/eslint-config/typescript"]
+}
+```
+
+#### Full example
+
+```js
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+  },
+  extends: ['@lovetoknow/eslint-config/typescript'],
   // add your custom rules here
   rules: {},
 }
