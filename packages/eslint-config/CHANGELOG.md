@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.4.0...@lovetoknow/eslint-config@0.5.0) (2023-11-14)
+
+
+### Features
+
+* **linter:** create a typescript linting configuration ([48f18b8](https://github.com/LoveToKnow/lint/commit/48f18b8ae71b2b26f15658712f7217db291b61db))
+
+
+
+
+
 # [0.4.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.3.4...@lovetoknow/eslint-config@0.4.0) (2022-07-06)
 
 
