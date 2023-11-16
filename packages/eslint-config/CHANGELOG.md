@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.5.0...@lovetoknow/eslint-config@0.6.0) (2023-11-16)
+
+
+### Features
+
+* add rule to typescript config ([ebf39f5](https://github.com/LoveToKnow/lint/commit/ebf39f53f7ee6c4b0811f5769a68c7d476b1aeea))
+
+
+
+
+
 # [0.5.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.4.0...@lovetoknow/eslint-config@0.5.0) (2023-11-14)
 
 
