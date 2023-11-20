@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@0.1.4...@lovetoknow/prettier-config@1.0.0) (2023-11-20)
+
+
+* feat!: [COM-297] updated external dependencies with major version ([40b00d1](https://github.com/LoveToKnow/lint/commit/40b00d19f34a4c87273eb6d2db280b9d7f04055a))
+
+
+### BREAKING CHANGES
+
+* the dependencies have been updated with breaking changes
+
+
+
+
+
 ## [0.1.4](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@0.1.3...@lovetoknow/prettier-config@0.1.4) (2023-11-20)
 
 
