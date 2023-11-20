@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5](https://github.com/LoveToKnow/lint/compare/@lovetoknow/stylelint-config@0.3.4...@lovetoknow/stylelint-config@0.3.5) (2023-11-20)
+
+
+### Bug Fixes
+
+* revert "build!: [COM-297] updated external dependencies with major version" ([d31ed64](https://github.com/LoveToKnow/lint/commit/d31ed643d755b89c3daeb31f1b84a03f68ee4851))
+
+
+
+
+
 ## [0.3.4](https://github.com/LoveToKnow/lint/compare/@lovetoknow/stylelint-config@0.3.3...@lovetoknow/stylelint-config@0.3.4) (2023-11-20)
 
 **Note:** Version bump only for package @lovetoknow/stylelint-config

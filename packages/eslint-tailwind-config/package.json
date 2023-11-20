@@ -1,6 +1,6 @@
 {
   "name": "@lovetoknow/eslint-tailwind-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "LoveToKnow's default Eslint for TailwindCSS configuration",
   "author": "LoveToKnow",
   "homepage": "https://github.com/LoveToKnow/lint",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.2](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.6.1...@lovetoknow/eslint-config@0.6.2) (2023-11-20)
+
+
+### Bug Fixes
+
+* revert "build!: [COM-297] updated external dependencies with major version" ([d31ed64](https://github.com/LoveToKnow/lint/commit/d31ed643d755b89c3daeb31f1b84a03f68ee4851))
+
+
+
+
+
 ## [0.6.1](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.6.0...@lovetoknow/eslint-config@0.6.1) (2023-11-20)
 
 **Note:** Version bump only for package @lovetoknow/eslint-config
