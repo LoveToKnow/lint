@@ -20,6 +20,6 @@
     "url": "https://github.com/LoveToKnow/lint/issues"
   },
   "dependencies": {
-    "prettier": "^2.x.x"
+    "prettier": "^3.x.x"
   }
 }
