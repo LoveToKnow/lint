@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@1.0.0...@lovetoknow/eslint-config@1.1.0) (2023-11-21)
+
+
+### Features
+
+* [COM-297] add nuxt and nuxt-typescript config ([4171e2e](https://github.com/LoveToKnow/lint/commit/4171e2e70122e8f5c7713f9e464446cb0283976a))
+
+
+
+
+
 # [1.0.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@0.6.2...@lovetoknow/eslint-config@1.0.0) (2023-11-20)
 
 
