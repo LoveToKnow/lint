@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@1.1.0...@lovetoknow/eslint-config@1.1.1) (2023-11-21)
+
+
+### Bug Fixes
+
+* nuxt rules error ([510e5b7](https://github.com/LoveToKnow/lint/commit/510e5b7480553cdd0a2136bf7972e177d39de7ad))
+
+
+
+
+
 # [1.1.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@1.0.0...@lovetoknow/eslint-config@1.1.0) (2023-11-21)
 
 
