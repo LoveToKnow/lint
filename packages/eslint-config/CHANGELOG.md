@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@1.1.1...@lovetoknow/eslint-config@1.1.2) (2023-11-21)
+
+
+### Bug Fixes
+
+* nuxt typescript unused vars ([bfab5d1](https://github.com/LoveToKnow/lint/commit/bfab5d1f0b2ae1177d23e64ca8ba7226708ab714))
+
+
+
+
+
 ## [1.1.1](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@1.1.0...@lovetoknow/eslint-config@1.1.1) (2023-11-21)
 
 
