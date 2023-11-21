@@ -14,7 +14,8 @@ module.exports = {
   },
   plugins: ['vuejs-accessibility'],
   rules: {
-    'nuxt/no-this-in-fetch-data': 'error',
+    'no-undef': 'off',
+    'no-console': ['warn', { allow: ['warn', 'error', 'debug'] }],
     'prettier/prettier': [
       'error',
       {
