@@ -87,7 +87,7 @@ This is the recommended configuration for Vue projects.
 Includes everything in the default config, plus environment specification and vue-specific rules.
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3 eslint-plugin-vuejs-accessibility
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config @babel/eslint-parser eslint@8 eslint-config-prettier@8 eslint-plugin-prettier@5 prettier@3 eslint-plugin-vuejs-accessibility
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
@@ -123,7 +123,7 @@ Includes everything in the default config, plus environment specification and vu
 - [`@nuxtjs/eslint-config`](https://github.com/nuxt/eslint-config/)
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config @babel/eslint-parser eslint@7 eslint-config-prettier@7.2.0 eslint-plugin-prettier@3 prettier@2.3 @nuxtjs/eslint-config@6 eslint-plugin-tailwindcss eslint-plugin-vuejs-accessibility eslint-plugin-unicorn@40
+npm install --save-dev @lovetoknow/eslint-config @lovetoknow/prettier-config eslint@8 @babel/eslint-parser eslint-config-prettier@8 eslint-plugin-prettier@5 prettier@3 @nuxtjs/eslint-config@6 eslint-plugin-tailwindcss eslint-plugin-vuejs-accessibility eslint-plugin-unicorn@40
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)
@@ -157,7 +157,7 @@ This is the recommended configuration for Vue projects.
 Includes everything in the default config, plus environment specification and vue-specific rules.
 
 ```sh
-npm install --save-dev @lovetoknow/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint@^7.32.0 typescript
+npm install --save-dev @lovetoknow/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript
 ```
 
 **In your `.eslintrc`:** (or `.eslintrc.js`)

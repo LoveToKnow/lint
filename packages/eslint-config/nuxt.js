@@ -2,14 +2,10 @@ const prettierConfig = require('@lovetoknow/prettier-config')
 
 module.exports = {
   extends: [
-    'eslint:recommended',
-    '@nuxtjs',
-    'plugin:nuxt/recommended',
-    require.resolve('./vue'),
+    '@nuxtjs/eslint-config',
     require.resolve('@lovetoknow/eslint-tailwind-config'),
     'plugin:prettier/recommended', // this one needs to be after the nuxt one
   ],
-  parser: 'vue-eslint-parser',
   env: {
     es6: true,
     browser: true,

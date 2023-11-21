@@ -53,7 +53,7 @@ const vueRules = {
 module.exports = {
   extends: [
     require.resolve('./index.js'),
-    'plugin:vue/strongly-recommended',
+    'plugin:vue/vue3-recommended',
     'prettier',
   ],
   plugins: ['vuejs-accessibility'],
