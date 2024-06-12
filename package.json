@@ -22,7 +22,7 @@
     "test:watch": "npm t -- --watch",
     "lint": "lerna run lint"
   },
-  "workspaces":[
+  "workspaces": [
     "packages/*"
   ]
 }

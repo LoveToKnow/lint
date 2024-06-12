@@ -3,8 +3,7 @@ const vueA11y = require('eslint-plugin-vuejs-accessibility')
 // Take all accessibility rules, but set them as warning only!
 // and add `vuejs-accessibility/` prefix to the rule name
 const a11yAsWarning = Object.keys(vueA11y.rules).reduce(
-  (rules, ruleName) =>
-    Object.assign({}, rules, { [`vuejs-accessibility/${ruleName}`]: 1 }),
+  (rules, ruleName) => Object.assign({}, rules, { [`vuejs-accessibility/${ruleName}`]: 1 }),
   {}
 )
 
@@ -51,11 +50,7 @@ const vueRules = {
 }
 
 module.exports = {
-  extends: [
-    require.resolve('./index.js'),
-    'plugin:vue/vue3-recommended',
-    'prettier',
-  ],
+  extends: [require.resolve('./index.js'), 'plugin:vue/vue3-recommended', 'prettier'],
   plugins: ['vuejs-accessibility'],
   parser: 'vue-eslint-parser',
   parserOptions: {
