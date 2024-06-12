@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@1.1.2...@lovetoknow/eslint-config@1.2.0) (2024-06-12)
+
+
+### Features
+
+* [COM-560] set line width to 120 ([ab956b5](https://github.com/LoveToKnow/lint/commit/ab956b5a9ba240ed922ca813ea57a1d5e8541dff))
+
+
+
+
+
 ## [1.1.2](https://github.com/LoveToKnow/lint/compare/@lovetoknow/eslint-config@1.1.1...@lovetoknow/eslint-config@1.1.2) (2023-11-21)
 
 

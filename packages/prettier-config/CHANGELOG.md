@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@1.0.0...@lovetoknow/prettier-config@1.1.0) (2024-06-12)
+
+
+### Features
+
+* [COM-560] set line width to 120 ([ab956b5](https://github.com/LoveToKnow/lint/commit/ab956b5a9ba240ed922ca813ea57a1d5e8541dff))
+
+
+
+
+
 # [1.0.0](https://github.com/LoveToKnow/lint/compare/@lovetoknow/prettier-config@0.1.4...@lovetoknow/prettier-config@1.0.0) (2023-11-20)
 
 
