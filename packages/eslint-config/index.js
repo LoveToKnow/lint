@@ -32,11 +32,7 @@ module.exports = {
     // common ones
     // biblio
     semi: ['error', 'never'],
-    quotes: [
-      'error',
-      'single',
-      { avoidEscape: true, allowTemplateLiterals: true },
-    ],
+    quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
 
     // wf
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
